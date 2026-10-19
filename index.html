@@ -1,537 +1,283 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>One Season In, Jeremy Womack, FCA</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Mission Continues | Ministry Impact Report, Sept–Oct 2026 | Jeremy Womack</title>
+<meta name="description" content="September–October 2026 ministry update from Jeremy Womack, serving coaches and athletes with the Fellowship of Christian Athletes in Cherokee County, Georgia.">
+<meta name="theme-color" content="#0a1f3d">
+<meta property="og:title" content="The Mission Continues | Ministry Impact Report">
+<meta property="og:description" content="September–October 2026 · Jeremy Womack · Fellowship of Christian Athletes">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/images/hero/huddle-practice.webp">
+<link rel="icon" href="/images/brand/fca-logo.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-
-  :root{
-    --ink:#1C2430;
-    --paper:#F5EFE3;
-    --paper-2:#EFE7D6;
-    --gold:#B8901F;
-    --gold-deep:#8C6A16;
-    --brick:#7A3226;
-    --slate:#5B6472;
-    --line:#D8CFBB;
-    --white:#FFFDF8;
-    --max:760px;
-  }
-
-  *{box-sizing:border-box;}
-  html{scroll-behavior:smooth;}
-
-  body{
-    margin:0;
-    background:var(--paper);
-    color:var(--ink);
-    font-family:'Work Sans', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
-    font-size:17px;
-    line-height:1.65;
-    -webkit-font-smoothing:antialiased;
-  }
-
-  h1,h2,h3{
-    font-family:'Fraunces', Georgia, 'Times New Roman', serif;
-    font-weight:600;
-    margin:0;
-    color:var(--ink);
-  }
-
-  p{margin:0 0 1em 0;}
-
-  a{color:var(--gold-deep);}
-
-  img,video{max-width:100%;display:block;}
-
-  .wrap{
-    max-width:var(--max);
-    margin:0 auto;
-    padding:0 28px;
-  }
-
-  /* ---------- HERO ---------- */
-
-  .hero{
-    position:relative;
-    height:700px;
-    height:clamp(600px, 74vw, 860px);
-    background:var(--ink);
-    overflow:hidden;
-  }
-
-  .hero-bg{
-    position:absolute;
-    inset:0;
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    object-position:center 78%;
-    opacity:0.8;
-  }
-
-  .hero::after{
-    content:"";
-    position:absolute;
-    inset:0;
-    background:linear-gradient(180deg, rgba(18,24,33,0.74) 0%, rgba(18,24,33,0.56) 42%, rgba(18,24,33,0.68) 62%, rgba(18,24,33,0.92) 100%);
-  }
-
-  .hero-content{
-    position:absolute;
-    inset:0;
-    z-index:2;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
-    align-items:center;
-    text-align:center;
-    padding:36px 28px 44px;
-    color:var(--white);
-  }
-
-  .hero-logo{
-    width:80px;
-    width:clamp(64px, 9vw, 92px);
-    height:auto;
-    filter:drop-shadow(0 3px 16px rgba(0,0,0,0.5));
-  }
-
-  .hero-mid{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    max-width:640px;
-  }
-
-  .hero-kicker{
-    font-family:'Work Sans', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
-    font-size:14px;
-    font-weight:600;
-    letter-spacing:0.02em;
-    color:var(--gold);
-    margin-bottom:16px;
-    text-shadow:0 1px 12px rgba(0,0,0,0.55);
-  }
-
-  .hero h1{
-    font-size:3rem;
-    font-size:clamp(2.6rem, 8vw, 4.6rem);
-    line-height:1.04;
-    color:var(--white);
-    text-shadow:0 2px 20px rgba(0,0,0,0.5);
-  }
-
-  .hero-bottom{
-    max-width:520px;
-  }
-
-  .hero-verse{
-    font-family:'Fraunces', Georgia, 'Times New Roman', serif;
-    font-style:italic;
-    font-weight:500;
-    font-size:1.15rem;
-    font-size:clamp(1.05rem, 2.6vw, 1.35rem);
-    line-height:1.55;
-    color:#F2E9D2;
-    text-shadow:0 1px 14px rgba(0,0,0,0.6);
-  }
-
-  .hero-verse-ref{
-    display:block;
-    margin-top:10px;
-    font-family:'Work Sans', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
-    font-style:normal;
-    font-size:13px;
-    color:var(--gold);
-    letter-spacing:0.01em;
-  }
-
-  /* ---------- INTRO ---------- */
-
-  .intro{
-    padding:72px 0 8px;
-  }
-
-  .intro .lede{
-    font-family:'Fraunces', Georgia, 'Times New Roman', serif;
-    font-size:26px;
-    line-height:1.5;
-    font-weight:500;
-    color:var(--ink);
-  }
-
-  .signature{
-    margin-top:32px;
-    font-family:'Fraunces', Georgia, 'Times New Roman', serif;
-    font-style:italic;
-    font-size:19px;
-    color:var(--gold-deep);
-  }
-
-  .signature span{
-    display:block;
-    font-family:'Work Sans', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
-    font-style:normal;
-    font-size:13px;
-    color:var(--slate);
-    margin-top:4px;
-  }
-
-  /* ---------- ENTRIES ---------- */
-
-  .entries{
-    padding:40px 0 20px;
-  }
-
-  .entry{
-    padding:64px 0 24px;
-  }
-
-  .entry-head{
-    display:flex;
-    align-items:baseline;
-    gap:16px;
-    margin-bottom:18px;
-  }
-
-  .entry-num{
-    font-family:'Fraunces', Georgia, 'Times New Roman', serif;
-    font-size:15px;
-    color:var(--gold-deep);
-    border:1px solid var(--gold);
-    border-radius:50%;
-    width:30px;
-    height:30px;
-    min-width:30px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-  }
-
-  .entry-meta{
-    font-size:13px;
-    color:var(--slate);
-  }
-
-  .entry h2{
-    font-size:1.6rem;
-    font-size:clamp(1.5rem, 4vw, 1.9rem);
-    line-height:1.22;
-    margin:6px 0 20px 46px;
-  }
-
-  .entry-body p{
-    max-width:66ch;
-  }
-
-  .entry-media{
-    margin:26px 0;
-  }
-
-  .entry-media img,
-  .entry-media video{
-    width:100%;
-    border-radius:2px;
-  }
-
-  .media-row{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:10px;
-  }
-
-  .media-cap{
-    font-size:13px;
-    color:var(--slate);
-    margin-top:8px;
-    font-style:italic;
-  }
-
-  .pull{
-    font-family:'Fraunces', Georgia, 'Times New Roman', serif;
-    font-size:22px;
-    font-weight:500;
-    line-height:1.45;
-    color:var(--brick);
-    padding:4px 0 4px 22px;
-    border-left:3px solid var(--gold);
-    margin:28px 0;
-    max-width:56ch;
-  }
-
-  .verse{
-    font-size:14px;
-    color:var(--slate);
-    margin-top:6px;
-    font-style:italic;
-  }
-
-  /* ---------- CLOSING ---------- */
-
-  .closing{
-    padding:64px 0 90px;
-  }
-
-  .closing h2{
-    font-size:1.9rem;
-    font-size:clamp(1.7rem, 5vw, 2.3rem);
-    margin-bottom:20px;
-    max-width:15ch;
-  }
-
-  .closing p{
-    max-width:60ch;
-  }
-
-  .closing-note{
-    margin-top:36px;
-    padding-top:8px;
-    font-size:14px;
-    color:var(--slate);
-  }
-
-  footer{
-    background:var(--ink);
-    color:#B7BDC7;
-    padding:40px 0;
-    font-size:13px;
-  }
-
-  footer .wrap{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    flex-wrap:wrap;
-    gap:24px;
-  }
-
-  footer .foot-left{
-    display:flex;
-    align-items:center;
-    gap:14px;
-  }
-
-  footer .foot-logo{
-    width:44px;
-    height:44px;
-    flex-shrink:0;
-  }
-
-  footer strong{
-    color:var(--white);
-    font-weight:600;
-  }
-
-  footer .foot-give{
-    color:#9AA3B0;
-    font-size:13px;
-  }
-
-  footer .foot-give a{
-    color:var(--gold);
-    text-decoration:none;
-    border-bottom:1px solid rgba(184,144,31,0.45);
-  }
-
-  footer .foot-give a:hover{
-    border-bottom-color:var(--gold);
-  }
-
-  @media (max-width:560px){
-    .wrap{padding:0 20px;}
-    .media-row{grid-template-columns:1fr;}
-    .entry h2{margin-left:0;margin-top:14px;}
-    .entry-head{flex-direction:column;align-items:flex-start;gap:6px;}
-  }
-
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
+<div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
 
-<section class="hero">
-  <img class="hero-bg" src="assets/images/chickfila-crowd.jpg" alt="Dean Rusk FCA students raising Bibles at Chick-fil-A">
-  <div class="hero-content">
-    <img class="hero-logo" src="assets/images/fca-logo.png" alt="Fellowship of Christian Athletes logo">
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Back to top">
+    <img src="/images/brand/fca-logo.png" alt="Fellowship of Christian Athletes" width="38" height="38">
+    <span>Jeremy Womack</span>
+  </a>
+  <a class="btn btn--small" href="https://my.fca.org/?form=jeremywomack&amp;keyword=Jeremy%20Womack" target="_blank" rel="noopener">Become a Ministry Partner</a>
+</header>
 
-    <div class="hero-mid">
-      <div class="hero-kicker">A report from FCA, Cherokee County</div>
-      <h1>One season in.</h1>
+<main id="top">
+
+<!-- HERO -->
+<section class="hero" aria-label="Cover">
+  <img class="hero__img" src="/images/hero/huddle-practice.webp" alt="A football team locked arm in arm in a prayer huddle under a blue sky" fetchpriority="high">
+  <div class="hero__shade"></div>
+  <div class="hero__content">
+    <p class="eyebrow">September–October 2026 · Ministry Impact Report</p>
+    <h1>The Mission<br>Continues.</h1>
+    <p class="hero__by"><strong>Jeremy Womack</strong><br>Fellowship of Christian Athletes · Cherokee County, GA</p>
+  </div>
+  <a class="scroll" href="#where" aria-label="Scroll down"><span></span></a>
+</section>
+
+<!-- WHERE I SHOW UP -->
+<section class="where" id="where">
+  <div class="wrap">
+    <p class="eyebrow eyebrow--gold">Where I show up</p>
+    <ul class="where__list">
+      <li class="reveal"><span class="where__sport">Football</span><h3>Creekview High School</h3><p>Team meals, prayer, and worship together as a team.</p></li>
+      <li class="reveal"><span class="where__sport">Football</span><h3>The King’s Academy</h3><p>Practices, the weight room, and Friday night games with the Knights.</p></li>
+      <li class="reveal"><span class="where__sport">Wrestling</span><h3>Cherokee High School</h3><p>A weekly discipleship huddle every Tuesday morning.</p></li>
+      <li class="reveal"><span class="where__sport">Open to anyone</span><h3>Thursday Night Bible Study</h3><p>Every Thursday at 7:30 PM, online.</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- LETTER -->
+<section class="letter" id="letter">
+  <div class="wrap letter__grid">
+    <figure class="letter__photo reveal">
+      <img src="/images/stories/bible-prep.webp" alt="An open Bible to Mark chapter 1 on a table at night" loading="lazy" width="1050" height="1400">
+      <figcaption>Preparing to lead Thursday night Bible study.</figcaption>
+    </figure>
+    <article class="letter__body reveal">
+      <p class="eyebrow eyebrow--dark">A message from Jeremy</p>
+      <h2>Thank you for making this possible.</h2>
+      <p class="dropcap">Friends, family, and partners: since August, I’ve stepped into full-time ministry with FCA in Cherokee County. Every Friday night, every classroom, and every weight room I get to walk into is there because you prayed, gave, and believed in this.</p>
+      <p>Here is what the last two months have looked like. Team meals and prayer at Creekview. Practices, weight rooms, and game nights with the Knights at The King’s Academy. And every Tuesday morning, a weekly discipleship huddle with the wrestling team at Cherokee High School.</p>
+      <p>The photo here is me preparing to lead. It’s also my Thursday night Bible study. God challenged me to step out in boldness and start it myself. It meets every Thursday at 7:30, it’s open to anyone, and some of the students I’ve met in the schools have started coming. <a class="inline" href="https://meet.google.com/bfu-ueka-xbr" target="_blank" rel="noopener">You can join online here.</a></p>
+      <p>One of the best parts has been watching students get curious. They look up to me, and they ask hard questions. One guy asked me a really hard one, and it meant a lot to see how badly he wants to challenge himself in following the Lord.</p>
+      <p>The moment that hit me hardest came at Creekview. A football player stood up in front of everyone and shared his testimony on identity. An injury got him cut, and he was out for a year. In that season he realized he had put his identity in sports, and that you can’t build it on anything in this world. That is my story. I grew up in church and still lost myself, and at 23 Jesus found me. Hearing a student say it out loud was the coolest thing I’ve seen this year.</p>
+      <p>What’s ahead excites me even more than what’s behind. Thank you for standing with me.</p>
+      <p class="sign">— Jeremy</p>
+    </article>
+  </div>
+</section>
+
+<!-- FAITH IN ACTION -->
+<section class="action" id="action">
+  <div class="wrap">
+    <p class="eyebrow eyebrow--blue">Ministry in action</p>
+    <h2 class="big">Faith in action.</h2>
+  </div>
+
+  <figure class="full reveal">
+    <button class="zoom" data-full="/images/ministry/field-stretch.webp" aria-label="Enlarge photo">
+      <img src="/images/ministry/field-stretch.webp" alt="Football players stretching across a sunlit turf field" loading="lazy" width="1200" height="1600">
+    </button>
+    <figcaption>Where it starts: showing up at King’s Academy practice.</figcaption>
+  </figure>
+
+  <div class="wrap grid">
+    <figure class="g g--a reveal">
+      <button class="zoom" data-full="/images/ministry/weight-room.webp" aria-label="Enlarge photo"><img src="/images/ministry/weight-room.webp" alt="Players training in The King’s Academy football weight room" loading="lazy" width="1200" height="1600"></button>
+      <figcaption>Iron sharpens iron, in the weight room with the Knights.</figcaption>
+    </figure>
+    <figure class="g g--b reveal">
+      <button class="zoom" data-full="/images/ministry/prayer-cafeteria.webp" aria-label="Enlarge photo"><img src="/images/ministry/prayer-cafeteria.webp" alt="Athletes bowing their heads in prayer, hands on each other’s shoulders, in a school cafeteria" loading="lazy" width="1200" height="1600"></button>
+      <figcaption>Creekview athletes praying over one another.</figcaption>
+    </figure>
+    <figure class="g g--c reveal">
+      <button class="zoom" data-full="/images/ministry/field-pregame.webp" aria-label="Enlarge photo"><img src="/images/ministry/field-pregame.webp" alt="Players kneeling on the field before a game under a gray sky" loading="lazy" width="900" height="1600"></button>
+      <figcaption>Pregame at King’s Academy.</figcaption>
+    </figure>
+  </div>
+
+  <figure class="wide reveal">
+    <button class="zoom" data-full="/images/ministry/classroom-group.webp" aria-label="Enlarge photo">
+      <img src="/images/ministry/classroom-group.webp" alt="Jeremy standing with the Cherokee High School wrestling team in a classroom, smiling" loading="lazy" width="1800" height="1350">
+    </button>
+    <figcaption>Tuesday mornings with the Cherokee High School wrestling team: building relationships and serving the wrestlers.</figcaption>
+  </figure>
+</section>
+
+<!-- STORIES -->
+<section class="stories" id="stories">
+  <div class="wrap">
+    <p class="eyebrow eyebrow--gold">Stories of impact</p>
+    <h2 class="big big--light">More than a moment.</h2>
+  </div>
+
+  <article class="story wrap reveal">
+    <figure class="story__img">
+      <button class="zoom" data-full="/images/stories/creekview-cafeteria.webp" aria-label="Enlarge photo"><img src="/images/stories/creekview-cafeteria.webp" alt="A student speaking to his football team in the Creekview cafeteria with the word IDENTITY on a screen" loading="lazy" width="1200" height="1600"></button>
+    </figure>
+    <div class="story__text">
+      <span class="story__tag">Creekview High School</span>
+      <h3>“Identity.”</h3>
+      <p>A football player at Creekview stood up in front of the whole team and shared his testimony. An injury got him cut, and he was out for a year. He realized he had put his identity in sports, and that identity can’t rest on anything in this world.</p>
+      <p>The guys responded so well. Every one of them was affected. It was my story, told by a student, and I was so happy to watch it happen.</p>
     </div>
+  </article>
 
-    <div class="hero-bottom">
-      <p class="hero-verse">"Let us not grow weary in doing good, for in due season we will reap, if we do not give up."<span class="hero-verse-ref">Galatians 6:9</span></p>
+  <article class="story story--flip wrap reveal">
+    <figure class="story__img">
+      <button class="zoom" data-full="/images/ministry/night-field.webp" aria-label="Enlarge photo"><img src="/images/ministry/night-field.webp" alt="A football field under stadium lights on game night" loading="lazy" width="1200" height="1600"></button>
+    </figure>
+    <div class="story__text">
+      <span class="story__tag">Friday nights · The King’s Academy</span>
+      <h3>Back on the team.</h3>
+      <p>At King’s Academy I started practicing with the team and going into the weight room with them. On Friday nights I got to feel like a football player again, just being part of the team.</p>
+      <p>I also got to pray over the coaches and pray with the team. It’s a Christian school, and it still matters to have someone in the huddle pointing the team to Jesus.</p>
+    </div>
+  </article>
+
+  <article class="story wrap reveal">
+    <figure class="story__img">
+      <button class="zoom" data-full="/images/ministry/lunch.webp" aria-label="Enlarge photo"><img src="/images/ministry/lunch.webp" alt="Wrestlers gathered around tables eating breakfast in a classroom" loading="lazy" width="1200" height="1600"></button>
+    </figure>
+    <div class="story__text">
+      <span class="story__tag">Cherokee High School · Tuesday mornings</span>
+      <h3>A seat at the table.</h3>
+      <p>Every Tuesday morning I meet with the Cherokee High School wrestling team for a weekly discipleship huddle. Chick-fil-A foil wraps, a classroom full of wrestlers, and an environment where we are learning how to follow Jesus.</p>
+      <p>It’s simple, and it’s where trust gets built.</p>
+    </div>
+  </article>
+</section>
+
+<!-- VIDEO -->
+<section class="video" id="video">
+  <div class="wrap video__grid">
+    <div class="video__text reveal">
+      <p class="eyebrow eyebrow--blue">Video highlights</p>
+      <h2 class="big">Experience the mission.</h2>
+      <p>The Creekview football team worshiping together, jumping up and down and singing. They love each other, and they have something special going.</p>
+    </div>
+    <div class="phone reveal">
+      <video controls playsinline preload="none" poster="/videos/team-prayer-poster.jpg" aria-label="Creekview football team worshiping together in the school cafeteria">
+        <source src="/videos/team-prayer.mp4" type="video/mp4">
+        Your browser can’t play this video.
+      </video>
     </div>
   </div>
 </section>
 
-<div class="wrap">
-
-  <section class="intro">
-    <p class="lede">Here's a report straight from FCA, and a look at all that God has been doing in Cherokee County this season. I am so grateful you get to see it firsthand.</p>
-    <p>Every one of these moments happened because people like you carry part of the weight, in prayer, in support, in simply asking how it's going. Thank you for walking this season with me.</p>
-    <div class="signature">Jeremy Womack
-      <span>Area Representative, Fellowship of Christian Athletes, Cherokee County</span>
+<!-- WHY WE SHOW UP -->
+<section class="why" id="why">
+  <div class="wrap why__inner">
+    <p class="eyebrow eyebrow--gold">The bigger picture</p>
+    <h2 class="big big--light">Why we show up.</h2>
+    <p class="lead reveal">Coaches and athletes carry enormous influence on their teams, their schools, and their communities. Reach one of them with the gospel, and you reach everyone they influence.</p>
+    <p class="why__eq reveal">Faith <b>+</b> Sport <b>=</b> FCA</p>
+    <p class="lead reveal">FCA is a non-denominational Christian sports ministry, on one mission for over 60 years, focused on four areas:</p>
+    <ul class="why__four reveal">
+      <li>Coaches</li><li>Campus</li><li>Camp</li><li>Community</li>
+    </ul>
+    <ul class="why__stats reveal">
+      <li><strong data-count="103663">103,663</strong><span>Camp attendance</span></li>
+      <li><strong data-count="24326">24,326</strong><span>Certified huddles</span></li>
+      <li><strong data-count="77">77</strong><span>Countries</span></li>
+    </ul>
+    <div class="why__cards">
+      <div class="reveal"><h3>Vision</h3><p>“To see the world transformed by Jesus Christ through the influence of coaches and athletes.”</p></div>
+      <div class="reveal"><h3>Mission</h3><p>“To lead every coach and athlete into a growing relationship with Jesus Christ and His church.”</p></div>
     </div>
-  </section>
-
-  <section class="entries">
-
-    <!-- ENTRY 1: Dean Rusk / Sequoyah Chick-fil-A -->
-    <article class="entry">
-      <div class="entry-head">
-        <span class="entry-num">1</span>
-        <span class="entry-meta">Dean Rusk FCA, Dean Rusk Middle School</span>
-      </div>
-      <h2>Hundreds of students. One maxed-out Chick-fil-A. Bibles going out every week.</h2>
-      <div class="entry-body">
-        <p>I was honored to be a part of Mark Weems' FCA Chick-fil-A group. I got to watch sixth, seventh, and eighth graders, guys and girls, gather on fire for the Lord, and they do it every single week. Hundreds of students, maxing out Chick-fil-A. It's honestly one of the coolest experiences I've been a part of.</p>
-      </div>
-
-      <div class="entry-media">
-        <video controls playsinline poster="assets/images/chickfila-video-poster.jpg">
-          <source src="assets/video/chickfila-clip.mp4" type="video/mp4">
-        </video>
-        <p class="media-cap">Bibles raised at the weekly Dean Rusk FCA gathering.</p>
-      </div>
-
-      <div class="entry-media">
-        <img src="assets/images/chickfila-exterior.jpg" alt="Chick-fil-A location where Dean Rusk FCA meets">
-        <p class="media-cap">The same Chick-fil-A, week after week, regularly at full capacity.</p>
-      </div>
-
-      <p class="pull">Watching a Chick-fil-A get maxed out with middle schoolers holding Bibles instead of phones. That's not something you forget.</p>
-
-      <div class="media-row">
-        <div>
-          <img src="assets/images/reading-plan.jpg" alt="FCA Athlete's Bible New Testament reading plan">
-          <p class="media-cap">The reading plan students are working through together.</p>
-        </div>
-        <div>
-          <img src="assets/images/chickfila-selfie.jpg" alt="Jeremy with two other FCA staff at Chick-fil-A">
-          <p class="media-cap">With teammates in ministry, celebrating another week of it.</p>
-        </div>
-      </div>
-    </article>
-
-    <!-- ENTRY 2: HEW Fitness evangelism training -->
-    <article class="entry">
-      <div class="entry-head">
-        <span class="entry-num">2</span>
-        <span class="entry-meta">HEW Fitness, Evangelism Training</span>
-      </div>
-      <h2>Learning how to actually make disciples, not just make converts.</h2>
-      <div class="entry-body">
-        <p>John, one of our other FCA area reps, runs a Bible study out of his gym, HEW Fitness. He put together a four-week deep dive on evangelism and discipleship, real, practical tools for how to share your faith and how to walk with someone afterward. Getting to sit under that training was a privilege, and it's already shaping how I lead my own groups.</p>
-      </div>
-
-      <div class="entry-media">
-        <img src="assets/images/hew-training-wide.jpg" alt="Men gathered for evangelism training at HEW Fitness">
-        <p class="media-cap">Four weeks of training on evangelism and discipleship, taught out of Mark 4.</p>
-      </div>
-
-      <div class="entry-media">
-        <img src="assets/images/hew-training-close.jpg" alt="Whiteboard diagram from the evangelism training">
-        <p class="media-cap">The 15-second testimony and the "3 Circles" gospel. Tools worth carrying into every conversation.</p>
-      </div>
-    </article>
-
-    <!-- ENTRY 3: Freedom Middle School / Summer Discipleship -->
-    <article class="entry">
-      <div class="entry-head">
-        <span class="entry-num">3</span>
-        <span class="entry-meta">Summer Discipleship</span>
-      </div>
-      <h2>Two and a half years with these guys, and now they're headed to high school.</h2>
-      <div class="entry-body">
-        <p>Our summer discipleship group closed out this season, and I couldn't be prouder. I've walked with these guys for two and a half years, watched them grow, watched them struggle, watched them fall in love with the Lord and actually become disciples of Jesus, not just kids who show up. Now they're off to high school, and I'm excited to keep showing up for some of them weekly, whether that's on the sidelines of their sport or over breakfast on a Friday morning.</p>
-      </div>
-
-      <div class="entry-media">
-        <img src="assets/images/duncan-patio-1.jpg" alt="Summer discipleship group reading Scripture together outdoors">
-        <p class="media-cap">Bibles open, notes in the margins. A normal Tuesday for this group.</p>
-      </div>
-
-      <div class="entry-media">
-        <img src="assets/images/duncan-patio-2.jpg" alt="Jeremy with the summer discipleship group">
-        <p class="media-cap">The crew, at the close of another summer together.</p>
-      </div>
-
-      <p class="pull">I've watched them struggle, and I've watched them fall in love with the Lord. That's the whole job, right there.</p>
-    </article>
-
-    <!-- ENTRY 4: Back at Freedom Middle -->
-    <article class="entry">
-      <div class="entry-head">
-        <span class="entry-num">4</span>
-        <span class="entry-meta">Freedom Middle School</span>
-      </div>
-      <h2>Going back to where it started.</h2>
-      <div class="entry-body">
-        <p>I spent two years running a discipleship group at Freedom Middle School before stepping into this full-time role. Getting to go back, lead a group again, and see Hank, the teacher who sponsored it from day one, was an honor. Some rooms you never really leave.</p>
-      </div>
-
-      <div class="media-row">
-        <div>
-          <img src="assets/images/freedom-selfie.jpg" alt="Jeremy Womack outside Freedom Middle School">
-          <p class="media-cap">Back on campus at Freedom Middle.</p>
-        </div>
-        <div>
-          <img src="assets/images/freedom-bibles-box.jpg" alt="Box of Bibles and North American Mission Board materials, visitor badge from Freedom Middle School">
-          <p class="media-cap">Bibles and mission board resources, ready to hand off.</p>
-        </div>
-      </div>
-    </article>
-
-    <!-- ENTRY 5: Iron Oath -->
-    <article class="entry">
-      <div class="entry-head">
-        <span class="entry-num">5</span>
-        <span class="entry-meta">Iron Oath, A Man's Purpose</span>
-      </div>
-      <h2>Raising up men, physically, spiritually, mentally.</h2>
-      <div class="entry-body">
-        <p>Iron Oath is something we've launched since I stepped into this role, a men's brotherhood built around growing together in three directions at once: physically, spiritually, and mentally. It's about raising up men of God who actually show up for each other. I'm genuinely pumped to be leading this alongside everything else God has going on right now.</p>
-      </div>
-
-      <div class="entry-media">
-        <img src="assets/images/iron-oath-gym.jpg" alt="Men from Iron Oath gathered at a boxing gym">
-        <p class="media-cap">Iron Oath, together after a session. Brotherhood built one rep and one conversation at a time.</p>
-      </div>
-
-      <div class="entry-media">
-        <img src="assets/images/iron-oath-flyer.jpg" alt="Iron Oath: A Man's Purpose event flyer">
-        <p class="media-cap">One of our recent gatherings. Brotherhood, purpose, strength.</p>
-      </div>
-    </article>
-
-  </section>
-
-  <section class="closing">
-    <h2>Thank you for walking through this season with me.</h2>
-    <p>None of this happens without people standing behind it in prayer and support. I wanted you to see exactly where that support has gone, into Bibles handed to sixth graders, into training that sharpens how we disciple, into kids who grew up right in front of us, and into men choosing to get stronger together in every sense of the word.</p>
-    <p>More seasons ahead. Grateful you're in this one with me.</p>
-    <div class="closing-note">Jeremy Womack, Fellowship of Christian Athletes, Cherokee County</div>
-  </section>
-
-</div>
-
-<footer>
-  <div class="wrap">
-    <div class="foot-left">
-      <img class="foot-logo" src="assets/images/fca-logo.png" alt="Fellowship of Christian Athletes logo">
-      <div>
-        <div><strong>Fellowship of Christian Athletes</strong>, Cherokee County</div>
-        <div>Jeremy Womack, Area Representative</div>
-      </div>
-    </div>
-    <div class="foot-give">If you ever feel led to partner further, you can do that <a href="https://my.fca.org/?form=jeremywomack">here</a>.</div>
+    <p class="source">Source: <a href="https://www.fca.org/what-is-fca" target="_blank" rel="noopener">fca.org/what-is-fca</a> and <a href="https://fca.org/about" target="_blank" rel="noopener">fca.org/about</a></p>
+    <p class="lead reveal">My part is simple: be present, build relationships, and disciple the ones God opens up, so they can make disciples. Not Christians who attend. Disciples who multiply.</p>
   </div>
+</section>
+
+<!-- WHAT'S AHEAD -->
+<section class="ahead" id="ahead">
+  <div class="wrap">
+    <p class="eyebrow eyebrow--blue">What’s ahead</p>
+    <h2 class="big">The mission isn’t finished.</h2>
+    <div class="ahead__cards">
+      <div class="card reveal"><h3>Two more huddles</h3><p>I’d like to start two more FCA huddles. Please pray with me for that.</p></div>
+      <div class="card reveal"><h3>Serve with me</h3><p>There are no scheduled events right now. If you’d like to come serve alongside me, reach out. I’d love to have you.</p></div>
+      <div class="card reveal"><h3>Prayer focus</h3><p>Pray that the Lord keeps softening the hearts of coaches and school leaders, that His presence increases in our schools, and that more students find Jesus through FCA.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- BIBLE STUDY BAND -->
+<section class="study" id="study">
+  <div class="wrap study__inner reveal">
+    <div>
+      <p class="eyebrow eyebrow--gold">Every Thursday · 7:30 PM</p>
+      <h2>Join the Bible study.</h2>
+      <p>Open to anyone. Students, coaches, family, friends. Hop on from wherever you are.</p>
+    </div>
+    <a class="btn btn--gold" href="https://meet.google.com/bfu-ueka-xbr" target="_blank" rel="noopener">Join on Google Meet</a>
+  </div>
+</section>
+
+<!-- PARTNER -->
+<section class="partner" id="partner">
+  <div class="wrap">
+    <p class="eyebrow eyebrow--gold">Partner with the mission</p>
+    <h2 class="big big--light">Your partnership makes this possible.</h2>
+    <p class="lead lead--center">There are three ways to step in. Every one of them matters.</p>
+    <div class="trio">
+      <div class="trio__item reveal"><h3>Pray</h3><p>Pray for students, coaches, schools, and continued opportunities to share the gospel.</p></div>
+      <div class="trio__item reveal"><h3>Partner</h3><p>Support the ministry financially through monthly or one-time giving.</p></div>
+      <div class="trio__item reveal"><h3>Share</h3><p>Help others discover what God is doing through FCA.</p></div>
+    </div>
+    <div class="cta">
+      <a class="btn btn--gold btn--big" href="https://my.fca.org/?form=jeremywomack&amp;keyword=Jeremy%20Womack" target="_blank" rel="noopener">Partner with the mission</a>
+      <button class="btn btn--ghost" id="shareBtn" type="button">Share this report</button>
+    </div>
+  </div>
+</section>
+
+<!-- CLOSING -->
+<section class="closing" aria-label="Closing">
+  <img class="closing__img" src="/images/hero/rain-huddle.webp" alt="A football team gathered in the rain under stadium lights after a game" loading="lazy">
+  <div class="closing__shade"></div>
+  <div class="closing__content wrap">
+    <h2>The best is<br>yet to come.</h2>
+    <p>Thank you for being part of this. Because of you, coaches and athletes in Cherokee County are hearing the name of Jesus in the weight room, on the field, and in the classroom. I’m grateful for every one of you.</p>
+    <p class="sign sign--light">— Jeremy</p>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div class="footer__id">
+      <img src="/images/brand/fca-logo.png" alt="Fellowship of Christian Athletes logo" width="64" height="64" loading="lazy">
+      <div>
+        <strong>Jeremy Womack</strong><br>
+        Fellowship of Christian Athletes<br>
+        September–October 2026
+      </div>
+    </div>
+    <div class="footer__links">
+      <a href="https://my.fca.org/?form=jeremywomack&amp;keyword=Jeremy%20Womack" target="_blank" rel="noopener">Give</a>
+      <a href="https://meet.google.com/bfu-ueka-xbr" target="_blank" rel="noopener">Thursday Bible study</a>
+      <a href="https://www.fca.org/what-is-fca" target="_blank" rel="noopener">About FCA</a>
+      <a href="#top">Back to top</a>
+    </div>
+  </div>
+  <p class="footer__fine wrap">This update is prepared by Jeremy Womack, who serves with the Fellowship of Christian Athletes, and is not an official publication of FCA national. The FCA name and logo are trademarks of the Fellowship of Christian Athletes.</p>
 </footer>
 
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+  <button class="lb__close" aria-label="Close">×</button>
+  <img alt="">
+</div>
+
+<script src="/js/script.js"></script>
 </body>
 </html>
